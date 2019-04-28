@@ -1,0 +1,16 @@
+title: JordanaNog Dev
+email: jordanasnogueira@gmail.com
+description: >-
+  Portifólio
+baseurl: "/"
+url: "http://jordananog.github.io"
+twitter_username: JoHh25
+github_username:  JordanaNog
+
+# Build settings
+include: ['_pages']
+kramdown:
+  input: GFM
+theme: minima
+plugins:
+  - jekyll-feed
