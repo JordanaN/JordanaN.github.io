@@ -5,4 +5,8 @@ title: Sobre
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend, ligula id tincidunt volutpat, magna augue pretium libero, a pretium felis est non justo. Etiam in bibendum purus. Suspendisse fermentum mauris turpis, vel hendrerit orci lobortis euismod. Aliquam urna libero, imperdiet sed tellus varius, vulputate tempor augue. Nunc nec ornare eros. Vestibulum viverra sagittis nisl, non maximus libero accumsan nec. Ut tempus massa vel enim placerat ultricies malesuada in tortor. Maecenas quis commodo risus. Vivamus eget gravida mauris. Donec ante diam, pellentesque in porttitor et, euismod quis arcu. Nam nec congue nunc, quis accumsan sem.
+Meu nome é **Jordana Nogueira**.
+
+Sou desenvolvedora a 5 anos e atualmente trabalho na [Creditas](https://www.creditas.com.br/) com desenvolvimento backend. Fiz minha gradução em Sistemas de Informação na [Univem](https://www.univem.edu.br/cursos/sistemas-de-informacao) em Marília.
+
+A idéia aqui é compartilhar conhecimento e ajudar as pessoas que estão começando na área.
