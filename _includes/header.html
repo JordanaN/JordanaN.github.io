@@ -1,19 +1,23 @@
-<aside>
+<header>
+  <div class="menu-toggle" id="hamburger">
+      <i class="fas fa-bars"></i>
+  </div>
+  <div class="overlay"></div>
   <div class="container">
     <nav>
+      <h1 class="brand"><a href="{{ '/' | prepend: site.baseurl }}">Jordana<span>N</span>og</a></h1>
       <ul>
-        <li><a href="{{ '/' | prepend: site.baseurl }}">JordanaNog</a></li>
         {% for page in site.pages %} {% if page.title %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %} {% endfor %}
         <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
       </ul>
-    </li>
-  </ul>
-</nav>
-</div>
-</aside>
-
-<header>
-  <h1>Bem vind@!</h1>
+    </nav>
+  </div>
 </header>
+
+{% if page.url == '/' %}
+  <div class="container-post">
+    <h2>Bem vind@!</h2>
+  </div>
+{% endif %}

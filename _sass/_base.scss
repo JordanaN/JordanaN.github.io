@@ -9,6 +9,12 @@ $heading-font-color: #425469;
 $light: #e7edf4;
 $header: #1d1425;
 
+html{
+  padding: 0;
+  margin: 0;
+  overflow: scroll; 
+}
+
 *,
 *::before,
 *::after {

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../assets/images/favicon.png">
   <title>
     
       Sobre
@@ -19,11 +20,15 @@
 
 
   <body>
-    <aside>
+    <header>
+  <div class="menu-toggle" id="hamburger">
+      <i class="fas fa-bars"></i>
+  </div>
+  <div class="overlay"></div>
   <div class="container">
     <nav>
+      <h1 class="brand"><a href="/">Jordana<span>N</span>og</a></h1>
       <ul>
-        <li><a href="/">JordanaNog</a></li>
          
         <li><a href="/about/">Sobre</a></li>
           
@@ -31,15 +36,11 @@
                      
         <li><a href="/blog">Blog</a></li>
       </ul>
-    </li>
-  </ul>
-</nav>
-</div>
-</aside>
-
-<header>
-  <h1>Bem vind@!</h1>
+    </nav>
+  </div>
 </header>
+
+
 
     <main>
       <article>
@@ -47,16 +48,15 @@
 
 <p>Meu nome é <strong>Jordana Nogueira</strong>.</p>
 
-<p>Sou desenvolvedora a 5 anos e atualmente trabalho na <a href="https://www.creditas.com.br/">Creditas</a> com desenvolvimento backend. Fiz minha gradução em Sistemas de Informação na <a href="https://www.univem.edu.br/cursos/sistemas-de-informacao">Univem</a> em Marília.</p>
+<p>Sou graduada em Sistemas de informação pela <a href="https://www.univem.edu.br/cursos/sistemas-de-informacao">Univem</a> e trabalho com desenvolvimento a quase 5 anos. Atualmente trabalho na <a href="https://www.creditas.com.br/">Creditas</a> usando Ruby e kotlin para aplicações backend e Ember e React para aplicações frontend.</p>
 
-<p>A idéia aqui é compartilhar conhecimento e ajudar as pessoas que estão começando na área.</p>
+<p>A idéia aqui é compartilhar as coisas que estou estudando.</p>
 
 
       </article>
     </main>
     <footer>
-  <p>Criado por
-    <strong>Jordana Nogueira</strong>
+  <p>
     <a class="social-icons" href="https://github.com/JordanaN" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">
         <i class="fab fa-github-alt"></i>
       </a>
@@ -66,5 +66,6 @@
   </p>
 </footer>
 
+    <script src="../assets/js/button-toggle.js"></script>
   </body>
 </html>
