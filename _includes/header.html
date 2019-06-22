@@ -10,7 +10,6 @@
         {% for page in site.pages %} {% if page.title %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %} {% endfor %}
-        <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
         <li>
           <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" data-toggle="tooltip" data-placement="bottom" title="RSS">
             <i class="fas fa-rss"></i>
@@ -22,7 +21,7 @@
 </header>
 
 {% if page.url == '/' %}
-  <div class="container-post">
+  <div class="container-home">
     <h2>Bem vind@!</h2>
   </div>
 {% endif %}

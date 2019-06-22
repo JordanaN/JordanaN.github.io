@@ -139,7 +139,7 @@ nav ul li a:hover::after {
 @keyframes slideIn {
   to {
     transform: translateX(0); } }
-.container-post {
+.container-home {
   display: flex;
   justify-content: center;
   margin-top: 15%; }
@@ -253,7 +253,7 @@ footer {
 
 @media screen and (max-width: 700px) {
   .container-lab {
-    padding-left: 15%;
+    padding-left: 10%;
     width: 100%;
     height: 100%;
     margin-top: 45%; } }
@@ -278,3 +278,26 @@ footer {
 @media screen and (max-width: 700px) {
   .container-blog {
     padding: 10%; } }
+.container-post {
+  padding: 5% 0;
+  width: 900px;
+  height: 100%;
+  font-size: 1.9rem;
+  text-align: justify; }
+
+.container-post h3 {
+  font-weight: 400;
+  color: #6d6c79; }
+
+.container-post time {
+  font-size: 1.3rem;
+  font-weight: 300; }
+
+@media screen and (max-width: 700px) {
+  .container-post {
+    padding: 10%;
+    min-height: 100%;
+    min-width: 100%; }
+
+  .text-post {
+    margin: 5%; } }
