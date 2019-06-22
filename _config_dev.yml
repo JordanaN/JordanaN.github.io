@@ -7,10 +7,12 @@ url: "http://localhost:4000"
 twitter_username: JoHh25
 github_username:  JordanaNog
 
-# Build settings
 include: ['_pages']
 kramdown:
   input: GFM
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  projects:
+    output: true

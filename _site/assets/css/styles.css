@@ -10,6 +10,17 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+article {
+  width: 98vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+@media screen and (max-width: 700px) {
+  body {
+    overflow: scroll; } }
 * {
   margin: 0;
   padding: 0;
@@ -186,3 +197,60 @@ footer {
     color: #8785A2;
     margin-left: 5px;
     font-size: 2.3em; }
+
+.container-about {
+  width: 900px;
+  height: 300px;
+  font-size: 1.9rem;
+  text-align: justify; }
+
+@media screen and (max-width: 700px) {
+  .container-about {
+    padding: 10%; } }
+.container-lab {
+  width: 900px;
+  height: 300px; }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 100px;
+  display: inline-block;
+  padding: 15px;
+  margin: 20px; }
+
+.card a {
+  text-decoration: none;
+  color: #8785A2; }
+
+.card h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: crimson; }
+
+.card p {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 5px; }
+
+.card i {
+  color: #8785A2;
+  font-size: 2.3em;
+  float: right; }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+/* Add some padding inside the card container */
+.container-card {
+  padding: 2px 16px; }
+
+@media screen and (max-width: 700px) {
+  .container-lab {
+    padding-left: 15%;
+    width: 100%;
+    height: 100%;
+    margin-top: 45%; } }

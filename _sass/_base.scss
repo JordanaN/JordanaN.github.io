@@ -1,6 +1,6 @@
 $content-width: 800px;
 $main: #cc198a;
-$font-style: 'Open Sans', sans-serif;
+$font-style: 'Muli', 'Open Sans', sans-serif;
 $font-color: #262626;
 $link-color: #425469;
 $link-hover-color: $main;
@@ -22,3 +22,27 @@ html{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+article {  
+  width: 98vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+
+@media screen and (max-width: 700px){
+  body {
+    overflow: scroll; 
+  } 
+}
+
+// .row {margin: 0 -5px;}
+
+// .row:after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
