@@ -29,7 +29,34 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center
+  align-items: center;
+}
+
+.container-error {
+  color: #8785A2;
+  text-align:center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 2.5rem;
+  }
+
+  i {
+    color: crimson;
+  }
+
+  a {
+    color: crimson;
+  }
+
+  img {
+    display:inline-block;
+    margin-top: 10px;
+  }
 }
 
 
@@ -38,11 +65,3 @@ article {
     overflow: scroll; 
   } 
 }
-
-// .row {margin: 0 -5px;}
-
-// .row:after {
-//   content: "";
-//   display: table;
-//   clear: both;
-// }

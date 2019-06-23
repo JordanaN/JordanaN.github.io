@@ -18,6 +18,22 @@ article {
   justify-content: center;
   align-items: center; }
 
+.container-error {
+  color: #8785A2;
+  text-align: center; }
+  .container-error h1 {
+    font-size: 3rem;
+    font-weight: 500; }
+  .container-error p {
+    font-size: 2.5rem; }
+  .container-error i {
+    color: crimson; }
+  .container-error a {
+    color: crimson; }
+  .container-error img {
+    display: inline-block;
+    margin-top: 10px; }
+
 @media screen and (max-width: 700px) {
   body {
     overflow: scroll; } }
@@ -141,8 +157,7 @@ nav ul li a:hover::after {
     transform: translateX(0); } }
 .container-home {
   display: flex;
-  justify-content: center;
-  margin-top: 15%; }
+  justify-content: center; }
 
 div h2 {
   font-size: 5rem;
